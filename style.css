@@ -1,0 +1,251 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.7)), url(bgg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+nav img
+{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 25px;
+    border: 2px solid #fff;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.ctn
+{
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.ctn h1
+{
+    font-size: 62px;
+    font-family: 'Irish Grover', cursive;
+}
+.ctn h2
+{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    color: fff;
+    font-family: 'Kanit', sans-serif;
+}
+.btn
+{
+    border: 2px solid #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 200px;
+}
+.btn:hover
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(bgg.jpg);
+    transition: 1s;
+}
+
+@media(max-width: 700px)
+{
+    nav img
+    {
+        width: 100px;
+        padding: 10px;
+    }
+    .ctn
+    {
+        margin-top: 50px;
+    }
+    .container h1
+    {
+        font-size: 24px;
+        font-family: 'Irish Grover', cursive;
+    }
+    .container h2
+    {
+        margin: 50px 0 40px;
+        font-size: 12px;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+    }
+        .btn
+    {
+        border: 2px solid: #fff;
+        display: inline-block;
+        text-decoration: none;
+        color: aliceblue;
+        border: 2px solid #fff;
+        padding: 6px 28px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+        margin-top: 200px;
+    }
+}
+
+.container2
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+.abt
+{
+    color: aliceblue;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    width: 50%;
+}
+.abt h1
+{
+    text-align: center;
+    padding: 10px;
+}
+.abt p
+{
+    padding: 25px;
+    font-size: 16px;
+}
+.prj
+{
+    color: aliceblue;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    width: 50%;
+    float: right;
+    margin-top: 150px;
+}
+.prj h1
+{
+    text-align: center;
+    padding: 10px;
+}
+.prj p
+{
+    padding: 25px;
+    font-size: 16px;
+}
+.ctc
+{
+    color: aliceblue;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+}
+.ctc h1
+{
+    text-align: center;
+    padding: 10px;
+}
+.ctc p
+{
+    padding: 25px;
+    font-size: 16px;
+}
+.rights
+{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 650px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* ------------------------------ MEDIA QUERIES --------------------s---------- */
+
+@media(max-width: 700px)
+{
+    .abt
+{
+    color: aliceblue;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    width: 100%;
+}
+.abt h1
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+.abt p
+{
+    padding: 25px;
+    font-size: 14px;
+}
+.prj
+{
+    color: aliceblue;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    width: 100%;
+    float: right;
+    margin-top: 150px;
+}
+.prj h1
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+.prj p
+{
+    padding: 25px;
+    font-size: 14px;
+}
+.ctc
+{
+    color: aliceblue;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    width: 100%;
+    float: left;
+    margin-top: 150px;
+}
+.ctc h1
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+.ctc p
+{
+    padding: 25px;
+    font-size: 14px;
+}
+    .rights
+{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 650px;
+    padding: 5px;
+    font-size: 14px;
+}
+    
+}
