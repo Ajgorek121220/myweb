@@ -116,7 +116,7 @@ nav img
 .abt
 {
     color: aliceblue;
-    border: 3px solid #fff;
+    border: 10px solid #fff;
     border-radius: 50px;
     width: 50%;
 }
@@ -133,7 +133,7 @@ nav img
 .prj
 {
     color: aliceblue;
-    border: 3px solid #fff;
+    border: 10px solid #fff;
     border-radius: 50px;
     width: 50%;
     float: right;
@@ -152,7 +152,7 @@ nav img
 .ctc
 {
     color: aliceblue;
-    border: 3px solid #fff;
+    border: 10px solid #fff;
     border-radius: 50px;
     width: 50%;
     float: left;
