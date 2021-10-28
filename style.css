@@ -17,18 +17,6 @@ body
     min-height: 100vh;
     position: relative;
 }
-nav h1
-{
-    margin-left: 50px;
-    margin-top: 50px;
-    text-decoration: none!important;
-    color: white;
-    font-family: 'Irish Grover', cursive;
-}
-nav a
-{
-    text-decoration: none;
-}
 .ctn
 {
     width: 90%;
